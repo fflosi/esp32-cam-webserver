@@ -187,7 +187,7 @@ int minFrameTime = MIN_FRAME_TIME;
     #undef LED_PIN    // undefining this disables the notification LED
 #endif
 
-bool autoLamp = false;         // Automatic lamp (auto on while camera running)
+bool autoLamp = true;         // Automatic lamp (auto on while camera running)
 
 int lampChannel = 7;           // a free PWM channel (some channels used by camera)
 const int pwmfreq = 50000;     // 50K pwm frequency
