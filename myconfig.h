@@ -123,8 +123,8 @@ struct station stationList[] = {{"ssid1", "pass1", true},
  *    Default is CET (Central European Time), eg GMT + 1hr
  *  The DST offset is usually 1 hour (again, in seconds) if used in your country.
  */
-//#define NTPSERVER "<EDIT THIS>.pool.ntp.org"
-//#define NTP_GMT_OFFSET 3600
+//#define NTPSERVER "br.pool.ntp.org"
+//#define NTP_GMT_OFFSET -10800
 //#define NTP_DST_OFFSET 3600
 
 /*

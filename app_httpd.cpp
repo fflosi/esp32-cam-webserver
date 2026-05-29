@@ -181,7 +181,7 @@ static esp_err_t capture_handler(httpd_req_t *req){
     Serial.println("Capture Requested");
     if (autoLamp && (lampVal != -1)) {
         setLamp(lampVal);
-        delay(75); // coupled with the status led flash this gives ~150ms for lamp to settle.
+        delay(250); // coupled with the status led flash this gives ~150ms for lamp to settle.
     }
     flashLED(75); // little flash of status LED
 
